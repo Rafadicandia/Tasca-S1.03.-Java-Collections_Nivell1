@@ -1,0 +1,50 @@
+import java.util.ArrayList;
+
+public class main {
+
+    public static void main(String[] args) {
+//instanciamos cada objeto mes
+        Month enero= new Month("enero");
+        Month febrero= new Month("febrero");
+        Month marzo= new Month("marzo");
+        Month abril= new Month("abril");
+        Month mayo= new Month("mayo");
+        Month junio= new Month("junio");
+        Month julio= new Month("julio");
+        Month setiembre= new Month("setiembre");
+        Month agosto= new Month("agosto");
+        Month octubre= new Month("octubre");
+        Month noviembre= new Month("noviembre");
+        Month diciembre= new Month("diciembre");
+//creamos array de meses
+
+        ArrayList <Month> meses = new ArrayList<>();
+
+//agregamos cada mes al array
+        meses.add(enero);
+        meses.add(febrero);
+        meses.add(marzo);
+        meses.add(abril);
+        meses.add(mayo);
+        meses.add(junio);
+        meses.add(julio);
+        meses.add(setiembre);
+        meses.add(octubre);
+        meses.add(noviembre);
+        meses.add(diciembre);
+//imprimios el listado sin agosto
+        for (Month m: meses){
+            System.out.println(m.name);
+        }
+//agregamos agosto al listado en la posición correcta
+
+        meses.add(7, agosto);
+
+//volvemos a imprimir el listado con el mes de agosto incluido
+        for (Month m: meses){
+            System.out.println(m.name);
+        }
+        
+    }
+
+}

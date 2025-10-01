@@ -32,19 +32,26 @@ public class main {
         meses.add(octubre);
         meses.add(noviembre);
         meses.add(diciembre);
-//imprimios el listado sin agosto
+
+        //imprimimos el listado sin agosto
+        System.out.println("--Año sin Agosto--");
+        System.out.println();
+
         for (Month m: meses){
             System.out.println(m.name);
         }
-//agregamos agosto al listado en la posición correcta
+        System.out.println();
 
+//agregamos agosto al listado en la posición correcta
         meses.add(7, agosto);
 
+        System.out.println("--Año con agosto--");
+        System.out.println();
 //volvemos a imprimir el listado con el mes de agosto incluido
         for (Month m: meses){
             System.out.println(m.name);
         }
-        
+
     }
 
 }

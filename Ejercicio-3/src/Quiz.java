@@ -36,9 +36,10 @@ public class Quiz {
                 System.out.println(answerCounter+"/10");
 
             }
-            FileExport.exportAnswerToFile(userName, answerCounter);
+
 
         }
+        FileExport.exportAnswerToFile(userName, answerCounter);
 
 
 

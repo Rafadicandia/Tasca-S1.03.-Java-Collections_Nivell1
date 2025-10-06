@@ -46,8 +46,6 @@ Given the file **`countries.txt`** (check the resources section) which contains 
 
 - Clone the Repository:
 
-<!-- end list -->
-
 ```bash
 git clone https://github.com/Rafadicandia/Tasca-S1.03.-Java-Collections_Nivell1.git
 ```

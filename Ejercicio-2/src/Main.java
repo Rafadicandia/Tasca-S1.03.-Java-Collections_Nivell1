@@ -4,25 +4,25 @@ import java.util.ListIterator;
 
 public class Main {
     public static void main(String[] args) {
-        List<Integer> lista1 = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
 
-        lista1.add(1);
-        lista1.add(2);
-        lista1.add(3);
-        lista1.add(4);
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
 
-        List<Integer> lista2 = new ArrayList<>();
+        List<Integer> list2 = new ArrayList<>();
 
-        ListIterator<Integer> it1 = lista1.listIterator(lista1.size());
+        ListIterator<Integer> it1 = list.listIterator(list.size());
 
 
 // Primero recorremos la primera tabla
         while (it1.hasPrevious()) {
             Integer i=it1.previous();
-            lista2.add(i);
+            list2.add(i);
         }
 
-        ListIterator<Integer> it2 = lista2.listIterator();
+        ListIterator<Integer> it2 = list2.listIterator();
 
         while (it2.hasNext()) {
         System.out.println(it2.next());

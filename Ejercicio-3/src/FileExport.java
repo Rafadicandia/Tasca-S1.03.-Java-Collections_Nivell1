@@ -1,4 +1,4 @@
-import java.io.File;
+
 import java.io.FileWriter;   // Import the FileWriter class
 import java.io.IOException;
 

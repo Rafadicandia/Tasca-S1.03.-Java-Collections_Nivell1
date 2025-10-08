@@ -1,48 +1,45 @@
 
+## 📄 Description - Exercise Statement
 
-## 📄Description - Exercise Statement
+### Exercise 1
 
-### Exercici 1
-Crea una classe anomenada Month amb un atribut "name" (que emmagatzemarà el nom del mes de l'any). Afegeix 11 objectes Month (cadascun amb el seu atribut diferent) en un ArrayList, a excepció de l'objecte amb atribut "Agost". Després, efectua la inserció en el lloc que correspon a aquest mes i demostra que l’ArrayList manté l'ordre correcte.
+Create a class called **Month** with an attribute "**name**" (which will store the name of the month of the year). Add 11 **Month** objects (each with its different attribute) into an **ArrayList**, with the exception of the object with the attribute "**Agost**" (August). Then, perform the insertion in the correct position for that month and demonstrate that the **ArrayList** maintains the correct order.
 
-Converteix l’ArrayList de l’exercici anterior en un HashSet i assegura’t que no permet duplicats.
+Convert the **ArrayList** from the previous exercise into a **HashSet** and ensure that it does not allow duplicates.
 
-Recorre la llista amb un for i amb un iterador.
+Iterate through the list using a `for` loop and an **iterator**.
 
-### Exercici 2
-Crea i emplena un List<Integer>.
+### Exercise 2
 
-Crea un segon List<Integer> i insereix a la segona llista els elements de la primera en ordre invers.
+Create and populate a `List<Integer>`.
 
-Empra els objectes ListIterator per a llegir els elements de la primera llista i inserir-los en la segona.
+Create a second `List<Integer>` and insert the elements of the first list into the second list in **reverse order**.
 
-### Exercici 3 
+Use **ListIterator** objects to read the elements of the first list and insert them into the second.
 
-Donat el fitxer countrties.txt (revisa l'apartat recursos) que conté països i capitals. El programa ha de llegir el fitxer i guardar les dades en un HashMap<String, String>. El programa demana el nom de l’usuari/ària, i després ha de mostrar un país de forma aleatòria, guardat en el HashMap. Es tracta que l’usuari/ària ha d’escriure el nom de la capital del país en qüestió. Si l’encerta se li suma un punt. Aquesta acció es repeteix 10 vegades. Un cop demanades les capitals de 10 països de forma aleatòria, llavors s’ha de guardar en un fitxer anomenat classificacio.txt, el nom de l’usuari/ària i la seva puntuació.
------
+### Exercise 3
 
-## 💻Used Technologies
+Given the file **countries.txt** (check the resources section) which contains countries and capitals. The program must read the file and store the data in a `HashMap<String, String>`. The program asks for the user's name, and then must randomly display a country stored in the **HashMap**. The user must write the name of the capital of the country in question. If they guess correctly, they get one point. This action is repeated 10 times. Once the capitals of 10 random countries have been requested, the user's name and their score must be saved in a file called **classificacio.txt**.
+
+## 💻 Used Technologies
 
 **Java**: 24 (OpenJDK)
 
 -----
 
-## 📋Requirements
+## 📋 Requirements
 
 - Operating System: Windows/macOS/Linux.
 
 - **Java Development Kit (JDK):** Version 24.0.1 (or higher). It is recommended to use an **OpenJDK** distribution.
 
-- Example: JDK 21 or higher.
-
 - Integrated Development Environment (IDE): IntelliJ IDEA.
 
 -----
 
-## 🛠️Installation
+## 🛠️ Installation
 
 - Clone the Repository:
-
 
 ```bash
 git clone https://github.com/Rafadicandia/Tasca-S1.03.-Java-Collections_Nivell1.git
@@ -54,15 +51,15 @@ Open the file as a Java project.
 
 -----
 
-## ▶️Execution
+## ▶️ Execution
 
 - Execute from the IDE
-    - Open the main file (the one containing the `main` method).
+  - Open the main file (the one containing the `main` method).
 
-    - Right-click and select "Run 'Main'".
+  - Right-click and select "Run 'Main'".
 
 -----
 
-## 🤝Contributions
+## 🤝 Contributions
 
-### Contributions are welcome. Please report any bugs by opening an issue or suggest improvements via a clear and concise Pull Request.
+Contributions are welcome. Please report any bugs by opening an issue or suggest improvements via a clear and concise Pull Request.

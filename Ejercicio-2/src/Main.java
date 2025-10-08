@@ -1,12 +1,5 @@
-/*Crea y rellena un List<Integer>.
-Crea un segundo List<Integer> e inserta en la segunda lista
-los elementos de la primera en orden inverso.
-Emplea los objetos ListIterator para leer los elementos de
-la primera lista e insertarlos en la segunda.*/
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Iterator;
 import java.util.ListIterator;
 
 public class Main {

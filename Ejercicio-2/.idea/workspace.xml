@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d8b351-a9ae-4087-953e-0b8552262c4b" name="Changes" comment="" />
+    <list default="true" id="98d8b351-a9ae-4087-953e-0b8552262c4b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio-3/files/classification.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio-3/files/classification.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio-3/src/Countries.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio-3/src/Countries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio-3/src/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio-3/src/Quiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Tasca-S1.03.-Java-Collections_Nivell1/Month.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Tasca-S1.03.-Java-Collections_Nivell1/Month.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Tasca-S1.03.-Java-Collections_Nivell1/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Tasca-S1.03.-Java-Collections_Nivell1/main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,17 +38,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/rafaeldicandia/ItAcademy/Tasca-S1.03.-Java-Collections_Nivell1/Ejercicio-2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rafaeldicandia/ItAcademy/Tasca-S1.03.-Java-Collections_Nivell1/Ejercicio-2&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="98d8b351-a9ae-4087-953e-0b8552262c4b" name="Changes" comment="" />

@@ -16,7 +16,7 @@ public class Main {
         ListIterator<Integer> it1 = list.listIterator(list.size());
 
 
-// Primero recorremos la primera tabla
+
         while (it1.hasPrevious()) {
             Integer i=it1.previous();
             list2.add(i);

@@ -6,13 +6,14 @@ import java.util.Scanner;
 public class Countries {
 
     static HashMap<String, String> capitalCities = new HashMap<>();
+    private static final File FILE = new File("./files/countries.txt");
 
     public static void loadData(){
-        File myObj = new File("./files/countries.txt");
+
 
         // try-with-resources: Scanner will be closed automatically
         try (
-                Scanner myReader = new Scanner(myObj)) {
+                Scanner myReader = new Scanner(FILE)) {
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
                 String[] parts = data.split(" ");

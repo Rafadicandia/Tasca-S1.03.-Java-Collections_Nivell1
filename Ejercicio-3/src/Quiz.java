@@ -1,5 +1,9 @@
+import java.util.Collections;
+import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
+
+import static java.util.Collections.shuffle;
 
 public class Quiz {
 
@@ -37,8 +41,6 @@ public class Quiz {
                 System.out.println(answerCounter+"/10");
 
             }
-
-
         }
         FileExport.exportAnswerToFile(userName, answerCounter);
 
